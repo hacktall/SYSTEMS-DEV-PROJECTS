@@ -1,3 +1,4 @@
+
 import java.time.LocalDateTime;
 
 public class OperationLog {
@@ -16,3 +17,4 @@ public class OperationLog {
         return timestamp + " | " + operation.toUpperCase() + " | " + details;
     }
 }
+

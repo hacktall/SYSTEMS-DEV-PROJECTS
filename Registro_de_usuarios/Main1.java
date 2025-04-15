@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main1 {
+    public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
         OperationHistory history = new OperationHistory();
         UserService service = new UserService(history);
@@ -62,4 +62,3 @@ public class Main {
         scanner.close();
     }
 }
-

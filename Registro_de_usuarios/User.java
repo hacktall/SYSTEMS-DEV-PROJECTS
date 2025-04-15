@@ -1,3 +1,4 @@
+
 public class User {
     private int id;
     private String name;
@@ -22,4 +23,3 @@ public class User {
         return "User [ID=" + id + ", Name=" + name + ", Email=" + email + "]";
     }
 }
-
